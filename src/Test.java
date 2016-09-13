@@ -9,6 +9,9 @@ public class Test {
 	System.out.println(start);
 	
 	
+	for (int j = 0; j < args.length; j++) {
+		System.out.println("J:"+j);
+	}
 	
 	System.out.println(path.substring(0, path.length()-1));;
 	}
